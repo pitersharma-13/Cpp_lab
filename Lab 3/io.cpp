@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-int maoin ()
+int main ()
 {
     int age ;
     cout << " Enter your age " << endl;
