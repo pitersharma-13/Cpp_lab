@@ -68,3 +68,54 @@ Encapsulation is one of the four fundamental OOP concepts. It involves bundling 
 User creates object → Calls setter method → Data is stored in private member
                    → Calls getter method → Retrieves and displays the data
 ```
+
+---
+
+# Circle Program - Circle Class
+
+## Overview
+This program demonstrates the use of a `Circle` class to calculate geometric properties (area and circumference) of a circle based on user input.
+
+## Program Description
+The program defines a `Circle` class that takes the radius as input and performs calculations to determine the area and circumference.
+
+### Class Structure
+**Class Name:** `Circle`
+
+**Private Members:**
+- `float radius` - Stores the radius of the circle
+- `float area` - Stores the calculated area
+- `float Circumference` - Stores the calculated circumference
+
+**Public Methods:**
+- `void inputTaken()` - Takes the radius as input from the user
+- `void calcuArea()` - Calculates the area using formula: Area = π × r²
+- `void calcCircumferemce()` - Calculates the circumference using formula: Circumference = 2 × π × r
+- `void displayInfo()` - Displays the calculated area and circumference
+
+## Mathematical Formulas
+- **Area of Circle:** A = π × r²
+  - Where π (PI) = 3.14159 and r = radius
+- **Circumference of Circle:** C = 2 × π × r
+  - Where π (PI) = 3.14159 and r = radius
+
+## How It Works
+1. A `Circle` object is created
+2. User is prompted to enter the radius of the circle
+3. The `calcuArea()` method calculates the area
+4. The `calcCircumferemce()` method calculates the circumference
+5. The `displayInfo()` method displays both results
+
+## Sample Output
+```
+Enter the radius of the circle : 
+5
+Area = 78.5398 Circumference = 31.4159
+```
+
+## Key Concepts Demonstrated
+- **Mathematical Calculations:** Applying formulas in code
+- **Encapsulation:** Private data members with public calculation methods
+- **User Input Handling:** Taking input and storing it in member variables
+- **Constant Definition:** Using `#define` for mathematical constants
+
