@@ -1,5 +1,5 @@
 /*Define a class Person with private
-members for the person&#39;s name and age.
+members for the person's name and age.
 Write methods to set and get these
 values.*/
 #include<iostream>
